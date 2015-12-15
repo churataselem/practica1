@@ -1,0 +1,10 @@
+<font color="#48D1CC". ALIGN=center><h2>Bienvenido a  <%= title %></h2></font>
+La pagina donde puede registrar contactos...
+<table>
+<% var i; for(i=0; i< contactos.length; i++) 
+{ %>
+<tr><td><%= i %></td><td><%= contactos[i].nombres %></td></tr>   
+<% } %>
+</table>
+
+
